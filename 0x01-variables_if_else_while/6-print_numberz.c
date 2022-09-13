@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - prints single numbers of base 10
  * from 0 going up
  * Return: 0 (success)
