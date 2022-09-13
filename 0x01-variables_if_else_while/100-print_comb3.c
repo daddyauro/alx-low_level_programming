@@ -15,9 +15,9 @@ int main(void)
 		{
 			putchar((n % 10) + '0');
 			putchar((n1 % 10) + '0');
-			if (n == 9 && n1 == 9)
+			if (n == 9 && n1 == 9)	
 				continue;
-			if (n == 9 || n1 == 9)
+			if (n != 9 || n1 == 9)
 				continue;
 			putchar(',');
 			putchar(' ');
