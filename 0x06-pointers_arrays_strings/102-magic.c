@@ -1,5 +1,4 @@
-#include <stdio.h>
-
+#include <stdio.
 int main(void)
 {
 	int n;
