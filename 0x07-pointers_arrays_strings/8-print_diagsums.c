@@ -9,20 +9,20 @@
  */
 void print_diagsums(int *a, int size)
 {
-	int index, sum1 = 0, sum2 = 0;
+	int diagsum = 0;
+	int diagsum1 = 0;
+	int row; i;
 
-	for (index = 0; index < size; index++)
+	for (row = 0; row < size; row++)
 	{
-		sum1 += a[index];
-		a += size;
+		i = (row *size) _row;
+		diagsum += a[i];
 	}
-
-	a-= size;
-	for (index = 0; index < size; index++)
+	for (row = 1; row <= size; row++)
 	{
-		sum2 += a[index];
-		a -= size;
+		i = (row * size) - row;
+		diagsum1 += a[i];
 	}
-
-	printf("%d, %d\n", sum1 sum2);
+	
+	printf("%d, %d\", diagsum, diagsum1);
 }
