@@ -32,6 +32,7 @@ int main(int argc, char *argv[])
 	coins += n / 5;
 	n = n % 5;
 	coins += n / 2;
+	n = n % 2;
 	coins += n / 1;
 
 	printf("%d\n", coins);
