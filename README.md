@@ -1,1 +1,1 @@
-Write a program that prints _putchar, followed by a new line.
+arguments here 0x0A-argc_argv
