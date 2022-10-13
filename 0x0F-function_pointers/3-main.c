@@ -20,3 +20,4 @@ int main(int argc, char *argv[])
 	b = atoi(argv[3]);
 	printf("%i\n", fptr(a, b));
 	return (0);
+}
