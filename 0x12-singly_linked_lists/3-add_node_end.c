@@ -49,4 +49,4 @@ while (last->next)
 	last = last->next;
 	last->next = newNode;
 	return (last);
-	}
+}	
