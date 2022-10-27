@@ -12,7 +12,7 @@ int powX(int b, int p)
 
 	while (p > 0)
 	{
-		prodv*= b;
+		prod *= b;
 		p--;
 	}
 	return (prod);
