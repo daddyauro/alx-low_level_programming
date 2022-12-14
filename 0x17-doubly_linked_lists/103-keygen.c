@@ -38,6 +38,10 @@ srand(tmp ^ 14);
 password[3] = codex[rand() & 63];
 
 tmp = 0;
+for (i = 0; i < len; i++)
+tmp += (argv[1][i] * argv[1][i]);
+password[4] = codex[(tmp ^ 239) & 63];
+
 for (i = 0; i < argv[1][0]; i++)
 tmp = rand();
 password[5] = codex[(tmp ^ 229) & 63];
